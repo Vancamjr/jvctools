@@ -1,0 +1,12 @@
+Package: jvctools
+Type: Package
+Title: John Van Camp's R Toolbox 
+Version: 0.1.0
+Author: John Van Camp, Ph.D.
+Maintainer: John Van Camp <john@van-camp.com>
+Description: John's default toolbox for R
+    Use to load default libraries & everyday functions
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
