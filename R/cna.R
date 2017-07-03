@@ -14,6 +14,6 @@
 
 
 cna<- function(x){
-  myoutput<-summarise_each(x,funs(n=sum(is.na(.))))
+  myoutput<-dplyr::summarise_each(x,funs(n=sum(is.na(.))))
   return(myoutput)
 }

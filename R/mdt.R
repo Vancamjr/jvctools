@@ -14,7 +14,6 @@
 #' x<-mdt(x)
 
 mdt<- function(x,factors=0){
-  require(data.table)
-  x<-as.data.table(x)
+  x<-data.table::as.data.table(x)
   return(x)
 }

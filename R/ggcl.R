@@ -9,6 +9,6 @@
 
 
 ggcl<-function(){
-  theme(plot.title=element_text(hjust=0.5),plot.subtitle=element_text(hjust=0.5))
+  ggplot2::theme(plot.title=element_text(hjust=0.5),plot.subtitle=element_text(hjust=0.5))
 }
 
