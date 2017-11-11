@@ -18,6 +18,7 @@ defl <-function(){
     library(data.table)
     library(magrittr)
     library(readr)
+    library(purrr)
     # library(sqldf)
     sink() ## undo silencing
     close(f)
