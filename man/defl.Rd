@@ -14,10 +14,6 @@ defl()
 }
 \keyword{data.table,}
 \keyword{default}
-\keyword{dplyr,}
-\keyword{ggplot2,}
 \keyword{library:}
 \keyword{magrittr,}
-\keyword{readr}
-\keyword{reshape2,}
-\keyword{tidyr,}
+\keyword{tydyverse(ggplot2,dplyr,tidyr,readr,purrr,tibble,stringr,forcats)}
