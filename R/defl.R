@@ -3,7 +3,7 @@
 #
 #' defl() load my default libraries
 #' @keywords default library: data.table, magrittr,
-#'     tydyverse(ggplot2,dplyr,tidyr,readr,purrr,tibble,stringr,forcats)
+#'    tydyverse(ggplot2,dplyr,tidyr,readr,purrr,tibble,stringr,forcats)
 #' @export
 #' @examples
 #' defl()
