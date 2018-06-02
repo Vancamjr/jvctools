@@ -8,14 +8,10 @@
 #' @examples
 #' defl()
 
-defl <-function(){
-    f = file()
-    sink(file=f) ## silence upcoming output using anonymous file connection
-    library(tidyverse)
-    library(reshape2)
-    library(data.table)
-    library(magrittr)
+defl<-function(){
+    suppressMessages(library(tidyverse))
+    suppressMessages(library(reshape2))
+    suppressMessages(library(data.table))
+    suppressMessages(library(magrittr))
     # library(sqldf)
-    sink() ## undo silencing
-    close(f)
 }
