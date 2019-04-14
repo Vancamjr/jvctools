@@ -13,9 +13,13 @@
 #' wcb(somedata)
 #' #column names included in the clipboard output
 
- wcb <- function (mydata) {
+ wcb <- function (mydata,Head=T,...) {
    osxcb <- pipe("pbcopy", "w")
-   write.table(mydata, file = osxcb, row=FALSE)
+   if (Head==T) {
+      write.table(mydata, file = osxcb, row = F)
+    } else if (Head==F) {
+      write.table(mydata, file = osxcb, row=F, col = F)
+    }
    close(osxcb)
 }
 

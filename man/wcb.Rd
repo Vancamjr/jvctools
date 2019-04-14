@@ -4,7 +4,7 @@
 \alias{wcb}
 \title{wcb() read excel input from clipboard}
 \usage{
-wcb(mydata)
+wcb(mydata, Head = T, ...)
 }
 \arguments{
 \item{mydata}{}
