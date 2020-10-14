@@ -9,9 +9,13 @@
 #' defl()
 
 defl<-function(){
-    suppressMessages(library(tidyverse))
-    suppressMessages(library(reshape2))
-    suppressMessages(library(data.table))
-    suppressMessages(library(magrittr))
-    # library(sqldf)
+    library(reshape2)
+    library(ggplot2)
+    library(purrr)
+    library(dplyr)
+    library(tidyr)
+    library(stringr)
+    library(readr)
+    library(data.table)
+    library(magrittr)
 }
